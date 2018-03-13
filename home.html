@@ -1,0 +1,35 @@
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>My-Store</title>
+      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="./assets/javascripts/libUtils.js"></script>
+      <script src="https://hero-geek.herokuapp.com/plugin/v1/plugeek_min.v1.js"></script>
+   </head>
+   
+   <body onload="myGeekLib.registerPage()">
+      
+      <div w3-include-html="./assets/includes/menu.html"></div>
+      <div class="container">
+         <div class="col-md-3">
+         <img src="./assets/images/my_store.png">
+         </div>
+         <h3>Welcome to My-Store!</h3>
+         <br>
+         <h4 class="my-0 font-weight-normal">
+            My-Store brings together everything you need to create websites, mobile backends, and web APIs for any platform or device. 
+            <br><br>The plans provide different options to test your apps within your budget. 
+            <br><br>The Isolated plan hosts your apps in a private, dedicated environment and is ideal for apps that require secure connections with your on-premises network, or additional performance and scale.
+         </h4>
+      </div>
+   </body>
+   
+   <script>
+      includeHTML();
+   </script>
+
+</html>
